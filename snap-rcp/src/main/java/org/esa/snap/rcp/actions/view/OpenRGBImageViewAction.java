@@ -67,6 +67,7 @@ import java.awt.event.ActionEvent;
 public class OpenRGBImageViewAction extends AbstractAction implements HelpCtx.Provider {
 
     private static final String HELP_ID = "rgbImageProfile";
+    public static final String ID = "OpenRGBImageView";
     private final Product product;
 
     public OpenRGBImageViewAction(ProductNode node) {

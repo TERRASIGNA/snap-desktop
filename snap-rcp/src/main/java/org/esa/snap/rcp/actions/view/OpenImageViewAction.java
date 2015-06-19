@@ -61,6 +61,7 @@ import java.text.MessageFormat;
 @NbBundle.Messages("CTL_OpenImageViewActionName=Open in Image View")
 public class OpenImageViewAction extends AbstractAction {
 
+    public static final String ID = "OpenImageView" ;
     RasterDataNode raster;
 
     public OpenImageViewAction(RasterDataNode rasterDataNode) {
